@@ -3,7 +3,6 @@ library(mapsf)
 library(tidyr)
 library(dplyr)
 library(gifski)
-library(cartogram)
 
 velib_loc <- st_read("velib_paris.gpkg", layer = "location")
 velib_data <- st_read("velib_paris.gpkg", layer = "data_velib")
